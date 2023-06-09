@@ -1,0 +1,429 @@
+/* ===== COMMON CSS START ===== */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ a{
+     text-decoration: none !important;
+     display: inline-block;
+ }
+ ul,ol,li{
+     list-style-type: none;
+ }
+ body{
+     overflow-x: hidden !important;
+     background: #000 !important;
+ }
+ html,body{
+     scroll-behavior: unset !important;
+ }
+ 
+ .container{
+  max-width: 1599px;
+ }
+ /* ===== COMMON CSS   END ===== */
+
+
+
+/* Line Spacing common class  */
+.line-break{
+     display: block;
+ }
+
+
+/* common color  */
+.common-color{
+  color: #ffd000;
+}
+.common-color-gold{
+  color: #ff7b00;
+}
+/* common bold  */
+.common-bold{
+
+}
+
+
+/* block span  */
+.block-span{
+    display: block;
+}
+
+
+/* common hover color */
+
+
+
+
+/* explotion hover animation  */
+
+ /* index */
+
+/* <div class="line">
+<a href="#" target="_blank" id="full-float" class="word fancy">
+    <span class="letter">@</span>
+    <span class="letter">A</span>
+    <span class="letter">O</span>
+    <span class="letter">Y</span>
+    <span class="letter">O</span>
+    <span class="letter">N</span>
+    <span class="letter">_</span>
+    <span class="letter">I</span>
+    <span class="letter">S</span>
+    <span class="letter">L</span>
+    <span class="letter">A</span>
+    <span class="letter">M</span>
+    <span class="letter">_</span>
+    <span class="letter">N</span>
+    <span class="letter">I</span>
+    <span class="letter">L</span>
+    <span class="letter">O</span>
+    <span class="letter">Y</span>
+    <!-- aoyonislamniloy -->
+</a></div> */
+
+/* THIS IS CSS NAME HOVER ANIMATION START  */
+.word{
+    background: #000;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fancy .letter{
+    display: inline-block;
+    background: #000;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    background-size: 200%;
+    animation: mentor-name-ani 10s infinite linear;
+}
+@keyframes mentor-name-ani {
+        
+    0%{
+        background-position: 0% center;
+    }
+    50%{
+        background-position: -2000% center;
+    }
+    100%{
+        background-position: 0% center;
+    }
+}
+.word:hover .letter{
+    background: linear-gradient(90deg, #000, #000, #000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation-name: fancy-float;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+@keyframes fancy-float {
+        
+    0%{
+        color: red;
+    }
+    50%{
+        color: #1fc7ff;
+    }
+    100%{
+        color: red;
+    }
+}
+#full-float:hover{
+    transform: translate(-0%, 0%);
+    animation-name: fancy-float-full;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes fancy-float-full {
+        
+    0%{
+        transform: translate(-0%, 0%);
+    }
+    50%{
+        transform: translate(-2%, 2%);
+    }
+    100%{
+        transform: translate(-0%, 0%);
+    }
+}
+
+.fancy > .letter {
+    transition: transform 350ms ease;
+  }
+  
+  .fancy:hover > .letter {
+    transition-duration: 800ms;
+  }
+  
+  .fancy:hover > .letter > .inner {
+    animation: float 5s ease infinite;
+}
+
+.fancy:hover > .letter:nth-child(1) {
+    transform: translate(-80%, 60%) rotate(8deg);
+  }
+  
+  .fancy:hover > .letter:nth-child(2) {
+    transform: translate(-40%, 20%) rotate(4deg);
+  }
+  
+  .fancy:hover > .letter:nth-child(3) {
+    transform: translate(-10%, 60%) rotate(-6deg);
+  }
+  
+  .fancy:hover > .letter:nth-child(4) {
+    transform: translate(0%, 8%) rotate(-8deg);
+  }
+  
+  .fancy:hover > .letter:nth-child(5) {
+    transform: translate(0%, -20%) rotate(5deg);
+  }
+  
+  .fancy:hover > .letter:nth-child(6) {
+    transform: translate(0%, 20%) rotate(-3deg);
+  }
+  
+  .fancy:hover > .letter:nth-child(7) {
+    transform: translate(0%, -40%) rotate(-5deg);
+  }
+  
+  .fancy:hover > .letter:nth-child(8) {
+    transform: translate(0%, 15%) rotate(10deg);
+  }
+  
+  .fancy:hover > .letter:nth-child(9) {
+    transform: translate(0%, -50%) rotate(8deg);
+  }
+  
+  .fancy:hover > .letter:nth-child(10) {
+    transform: translate(0%, 15%) rotate(-6deg);
+  }
+  
+  .fancy:hover > .letter:nth-child(11) {
+    transform: translate(50%, -10%) rotate(-3deg);
+  }
+  
+  .fancy:hover > .letter:nth-child(12) {
+    transform: translate(120%, -30%) rotate(-10deg);
+  }
+  .fancy:hover > .letter:nth-child(13) {
+    transform: translate(120%, 20%) rotate(-12deg);
+  }
+  .fancy:hover > .letter:nth-child(14) {
+    transform: translate(120%, -10%) rotate(-20deg);
+  }
+  .fancy:hover > .letter:nth-child(15) {
+    transform: translate(280%, -50%) rotate(-15deg);
+  }
+  .fancy:hover > .letter:nth-child(16) {
+    transform: translate(130%, -40%) rotate(8deg);
+  }
+  .fancy:hover > .letter:nth-child(17) {
+    transform: translate(100%, 30%) rotate(8deg);
+  }
+  .fancy:hover > .letter:nth-child(18) {
+    transform: translate(140%, 40%) rotate(8deg);
+  }
+#text:has(.fancy:hover) .word:not(.fancy:hover) {
+    opacity: 0.2;
+  }
+/* THIS IS CSS NAME HOVER ANIMATION END  */
+
+
+/* COMMON GRADIENT ANIMATION FOR NAME & TITLES  */
+
+.common-gradient-ani{
+    background: linear-gradient(90deg, #38300f, #FFD700 , #38300f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200%;
+    animation: common-gradient-ani 100s infinite linear;
+}
+@keyframes common-gradient-ani {
+        
+    0%{
+        background-position: 0% center;
+    }
+    50%{
+        background-position: 2000% center;
+    }
+}
+.counter-gradient-ani{
+    background: linear-gradient(90deg, #FFD700, #ffd9006c , #FFD700);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200%;
+    animation: counter-gradient-ani 100s infinite ease-in-out;
+}
+@keyframes counter-gradient-ani {
+    0%{
+        background-position: 0% ;
+    }
+    50%{
+        background-position: 1000% ;
+    }
+    100%{
+        background-position: 0% ;
+    }
+}
+
+
+
+
+/* cursor gps finder  */
+
+@keyframes rotate {
+  from {
+    rotate: 0deg;
+  }
+  
+  50% {
+    scale: 1;
+  }
+  
+  to {
+    rotate: 360deg;
+  }
+}
+
+.blob-wrapper{
+  /* position: relative; */
+}
+#blob {
+  height: 16vmax;
+  /* aspect-ratio: 1; */
+  width: 16vmax;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+  border-radius: 50%;
+  background: linear-gradient(to right, rgb(255, 255, 255), #ffd000);
+  animation: rotate 20s infinite;
+  opacity: 0.5;
+  filter: blur(12vmax);
+  z-index: -99999 !important;
+}
+
+
+
+/* conact icon hover shake css  */
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  
+  30%, 50%, 70% {
+    transform: translate3d(-2px, 0, 0);
+  }
+  40%, 60% {
+    transform: translate3d(2px, 0, 0);
+  }
+}
+
+
+
+/* ====== ANIMATE CSS   END ====== */
+
+.top-scroll-btn {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: #ffd000;
+  position: fixed;
+  bottom: 65px;
+  right: 55px;
+  z-index: 999;
+  line-height: 50px;
+  text-align: center;
+  cursor: pointer;
+  display: none;
+  animation-name: scroll-btn;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes scroll-btn {
+
+  0% {
+      bottom: 85px;
+      background: #ffd000;
+      color: #3f3f3f;
+  }
+
+  50% {
+      bottom: 100px;
+      background: #ffd000;
+      color: #000;
+  }
+
+  100% {
+      bottom: 85px;
+      background: #ffd000;
+      color: #3f3f3f;
+  }
+}
+
+.top-scroll-btn i {
+  color: #313131;
+  font-size: 30px;
+  margin-top: 10px;
+  animation-name: scroll-btn-icon;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes scroll-btn-icon {
+
+  0% {
+    color: #3f3f3f;
+}
+
+50% {
+    color: #000;
+}
+
+100% {
+    color: #3f3f3f;
+}
+}
+
+/* ====== ANIMATE CSS   END ====== */
+
+
+
+
+
+
+
+
+
+
+
+/* .image {
+  width: 40vmin;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.image[data-status="inactive"] {
+  display: none;
+}
+
+.image[data-status="active"] {
+  display: block;
+} */
+

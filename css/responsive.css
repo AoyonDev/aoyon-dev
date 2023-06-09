@@ -1,0 +1,223 @@
+
+        /* SMALL DEVICE RESPONSIVE */
+@media (min-width: 320px) and (max-width: 598.98px) { 
+    
+    .parallax-scrolling {
+        padding: 200px 0px !important;
+    }
+
+    .home-part-image img {
+        height: 150px !important;
+        width: 150px !important;
+        object-fit: cover !important;
+    }
+    .home-part-image {
+        height: 150px !important;
+        width: 150px !important;
+    }
+    
+    .home-page-text h3 {
+        font-size: 22px !important;
+    }
+    .home-page-text h3 span{
+        display: block;
+        padding-top: 15px;
+        font-size: 28px !important;
+    }
+    .home-page-text p {
+        font-size: 20px !important;
+        margin-top: 10px;
+    }
+    .home-btn {
+        margin-top: 50px !important;
+    }
+
+    /* about section  */
+
+    .about-title p {
+        font-size: 28px !important;
+        margin-top: 15px;
+    }
+    .about-left h4 {
+        font-size: 24px !important;
+    }
+    .about-left h4 span{
+        font-size: 24px !important;
+    }
+    .about-right h6 {
+        font-size: 24px !important;
+    }
+    .about-right h6 span{
+        font-size: 22px !important;
+    }
+    .about-experiance{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .about-info-row {
+        text-align: center;
+    }
+    .about-bottom-info {
+        margin: 30px 0px;
+    }
+    .about-bottom-info h4{
+        color: #ffd900 !important;
+    }
+
+
+    /* service part  */
+    .service-item {
+        padding: 0px 10px;
+    }
+    .service-title p {
+        font-size: 26px !important;
+    }
+    .service-img {
+        margin-top: 10px !important;
+    }
+    .service-text p {
+        margin-bottom: 0px;
+        opacity: 1;
+        overflow: hidden !important;
+        transition: all linear 0.3s;
+        visibility: visible !important;
+    }
+    .service-img {
+        display: block !important;
+        height: 150px;
+        width: 150px;
+        text-align: center;
+        border-radius: 50%;
+        line-height: 150px;
+        text-align: center;
+        transition: all linear 0.3s;
+        margin-top: 40px;
+    }
+    .service-text h4 {
+        font-size: 20px !important;
+        color: #ffd900 !important;
+        padding-bottom: 10px !important;
+        margin-top: -30px !important;
+    }
+    .service-item:hover {
+        box-shadow: 0px 0px 10px 2px #ffffff9d;
+        transition: all linear 0.3s;
+    }
+    .service-img img {
+        height: 50px !important;
+        width: 50px !important;
+        transition: all linear 0.3s;
+    }
+
+    /* project part  */
+    .project-title p {
+        font-size: 28px !important;
+    }
+    .project-text h4 {
+        font-size: 26px !important;
+    }
+
+    /* STATICS PART  */
+    .statics-title p {
+        font-size: 28px !important;
+    }
+
+    /* review part  */
+    .review-title p {
+        font-size: 28px !important;
+    }
+
+    .saying-title h4 {
+        font-size: 26px !important;
+        padding-bottom: 50px;
+    }
+    .saying-title p {
+        font-size: 18px !important;
+    }
+
+    /* contact part  */
+
+    .contact-title h6 {
+        font-size: 32px !important;
+    }
+    .contact-title p {
+        font-size: 18px !important;
+    }
+    
+    /* footer part */
+    .foter-left{
+        margin-left: 5px !important;
+    }
+    .foter-left h4 {
+        font-size: 12px !important;
+    }
+    .foter-center p {
+        font-size: 12px !important;
+    }
+    .foter-right{
+        margin-right: 5px !important;
+    }
+    .foter-right p {
+        font-size: 12px !important;
+    }
+
+
+
+    /* up button  */
+
+    .top-scroll-btn {
+        bottom: 25px !important;
+        right: 15px;
+        animation-name: scroll-btn !important;
+        animation-duration: 1.5s !important;
+        animation-iteration-count: infinite !important;
+        animation-timing-function: ease-in-out !important;
+      }
+
+      @keyframes scroll-btn {
+
+        0% {
+            bottom: 25px !important;
+        }
+      
+        50% {
+            bottom: 35px !important;
+        }
+      
+        100% {
+            bottom: 25px !important;
+        }
+      }
+
+      body{
+        overflow-x: hidden !important;
+      }
+}
+
+
+
+
+@media (min-width: 599px) and (max-width: 991.98px) { 
+    .top-scroll-btn {
+        bottom: 5px !important;
+        right: 15px;
+      }
+      @keyframes scroll-btn {
+
+        0% {
+            bottom: 5px !important;
+        }
+      
+        50% {
+            bottom: 20px !important;
+        }
+      
+        100% {
+            bottom: 5px !important;
+        }
+      }
+      
+      body{
+        overflow-x: hidden !important;
+      }
+ }
