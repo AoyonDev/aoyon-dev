@@ -4,21 +4,25 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
- }
- a{
-     text-decoration: none !important;
-     display: inline-block;
- }
- ul,ol,li{
-     list-style-type: none;
- }
- body{
-     overflow-x: hidden !important;
-     background: #000 !important;
- }
- html,body{
-     scroll-behavior: unset !important;
- }
+}
+a{
+   text-decoration: none !important;
+   display: inline-block;
+}
+ul,ol,li{
+   list-style-type: none;
+}
+body{
+   overflow-x: hidden !important;
+   background: #000 !important;
+}
+html,body{
+   scroll-behavior: unset !important;
+}
+html{
+    width: 100%;
+    overflow-x: hidden !important;
+}
  
  .container{
   max-width: 1599px;
