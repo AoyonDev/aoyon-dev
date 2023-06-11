@@ -478,9 +478,9 @@
         margin-top: 10px;
     }
     .top-scroll-btn {
-        height: 30px !important;
-        width: 30px !important;
-        line-height: 30px !important;
+        height: 40px !important;
+        width: 40px !important;
+        line-height: 40px !important;
         bottom: 25px !important;
         right: 15px;
         animation-name: scroll-btn !important;
