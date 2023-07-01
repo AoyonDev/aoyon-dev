@@ -1,9 +1,4 @@
 /* HOME PART CSS START  */
-
-
-#home-part{
-
-}
 .parallax-scrolling{
     padding: 330px 0px;
 }
@@ -11,7 +6,6 @@
     justify-content: center;
     margin-top: -150px !important;
 }
-
 .home-part-image{
     background: #FFF;
     height: 200px;
@@ -51,31 +45,30 @@
     color: #FFF;
     margin: 25px 0px;
 }
-
 .home-btn{
     margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .home-btn ul{
     margin-left: -25px;
 }
 .home-btn ul li a button{
+    width: 120px;
     font-family: 'DM Sans', sans-serif;
     font-size: 22px;
-    font-weight: 400;
+    font-weight: 600;
     color: #000;
     background: #cfba3e;
     padding: 8px 16px;
     border: none;
     border-radius: 4px;
     transition: all linear 0.3s;
-
 }
 .home-btn ul li a button:hover{
     background: #ffd900;
     box-shadow: 0px 0px 10px 0px #ffd900;
 }
-
-
 .home-animate-icon {
     position: absolute;
     bottom: -70% !important;
@@ -111,11 +104,6 @@
 /* HOME PART CSS   END  */
 
 
-
-
-
-
-
 /* ===========================
     ABOUT PART CSS START
 =========================== */
@@ -123,7 +111,6 @@
 #about-part{
     padding: 100px 0px;
 }
-
 .about-title-row{
     justify-content: center;
 }
@@ -218,14 +205,7 @@
     margin-top: 50px;
 }
 
-.about-bottom-info{
-
-}
-
 /* names */
-.about-name{
-    
-}
 .about-name h4{
     font-family: 'DM Sans', sans-serif;
     font-size: 18px;
@@ -239,9 +219,6 @@
     color: #FFF;
 }
 /* emails */
-.about-email{
-
-}
 .about-email h4{
     font-family: 'DM Sans', sans-serif;
     font-size: 18px;
@@ -255,9 +232,6 @@
     color: #FFF;
 }
 /* date of birth  */
-.about-date-birth{
-
-}
 .about-date-birth h4{
     font-family: 'DM Sans', sans-serif;
     font-size: 18px;
@@ -271,9 +245,6 @@
     color: #FFF;
 }
 /* location */
-.about-from{
-
-}
 .about-from h4{
     font-family: 'DM Sans', sans-serif;
     font-size: 18px;
@@ -513,17 +484,11 @@
 
 
 
-
-
-
-
-
 /* COUNTER PART CSS START  */
 
 #statics-part{
     padding: 100px 0px;
 }
-
 .statics-title-row{
     justify-content: center;
 }
@@ -546,9 +511,6 @@
     color: #FFF;
     margin-top: 15px;
 }
-
-
-
 .counter-wrapper{
     justify-content: center;
     display: flex;
@@ -593,17 +555,11 @@
 
 
 
-
-
-
-
-
 /* REVIEW PART CSS START  */
 
 #review-part{
     padding: 100px 0px;
 }
-
 .review-title-row{
     justify-content: center;
 }
@@ -626,8 +582,6 @@
     color: #FFF;
     margin-top: 15px;
 }
-
-
 .review-slider-row{
     justify-content: center;
     padding-top: 50px;
@@ -670,7 +624,6 @@
     font-weight: 400;
     color: #FFF;
 }
-
 .review-slider .slick-dots{
     display: flex;
     justify-content: center;
@@ -699,13 +652,7 @@
 .review-slider .slick-dots li.slick-active button{
     opacity: 1;
 }
-
 /* REVIEW PART CSS   END  */
-
-
-
-
-
 
 
 
@@ -740,18 +687,11 @@
 /* SAYING PART CSS   END  */
 
 
-
-
-
-
-
-
 /* BLOGS PART CSS START  */
 
 #blog-part{
     padding: 100px 0px;
 }
-
 .blog-title-row{
     justify-content: center;
 }
@@ -808,17 +748,11 @@
 
 
 
-
-
-
-
-
 /* CONTACT PART CSS START  */
 
 #contact-part{
     padding: 200px 0px;
 }
-
 .contact-title-row{
     justify-content: center;
 }
@@ -848,7 +782,6 @@
     color: #bdbdbd;
     margin-top: 15px;
 }
-
 .contact-row{
     align-items: center;
     margin-top: 100px;
@@ -889,13 +822,11 @@
     border: none;
     border-radius: 4px;
     transition: all linear 0.3s;
-
 }
 .contact-btn ul li a button:hover{
     background: #ffd900;
     box-shadow: 0px 0px 10px 0px #ffd900;
 }
-
 .contact-img{
     position: relative;
     display: flex;
@@ -905,16 +836,9 @@
     background: transparent;
     background-clip: border-box;
 }
-
 .contact-img img{
     object-fit: cover;
 }
-
-
-
-
-
-
 
 /* contact left side  */
 
@@ -940,7 +864,6 @@
     font-weight: 300;
     color: #222222;
 }
-
 .contact-card-info{
     display: flex;
     padding: 10px 0px;
@@ -959,7 +882,6 @@
     font-weight: 400;
     color: #000;
 }
-
 .contact-social-icons{
     display: flex;
     padding: 20px 0px;
@@ -979,7 +901,6 @@
     transition: all 1s;
     margin: 10px;
 }
-
 .contact-social-icons a:hover{
     background-color: #000;
     color: #fff;
@@ -1010,14 +931,7 @@
     transition: all linear 0.3s;
     animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
 }
-
 /* CONTACT PART CSS   END  */
-
-
-
-
-
-
 
 
 /* FOOTER PART CSS START  */
