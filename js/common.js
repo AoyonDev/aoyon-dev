@@ -35,6 +35,17 @@ $('.main-counter').counterUp({
   delay: 10,
   time: 1000
 });
+// loader 
+window.addEventListener("load", () => {
+  const loader = document.querySelector(".loader");
+
+  loader.classList.add("loader--hidden");
+
+  loader.addEventListener("transitionend", () => {
+    document.body.removeChild(loader);
+  });
+});
+
 
 
 
